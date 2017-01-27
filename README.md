@@ -20,6 +20,6 @@ Implementação do Repositorio Generico para o EntityFramework
 #Instalação 
 Install-Package BibliotecaSubeta.Dominio
 
-Install-Package BibliotecaSubeta.Apresentação
+Install-Package BibliotecaSubeta.Apresentacao
 
 Install-Package BibliotecaSubeta.Data
