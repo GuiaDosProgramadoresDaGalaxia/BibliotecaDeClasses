@@ -16,3 +16,10 @@ Interface de um Repositorio Generico,
 
 #Data
 Implementação do Repositorio Generico para o EntityFramework
+
+#Instalação 
+Install-Package BibliotecaSubeta.Dominio
+
+Install-Package BibliotecaSubeta.Apresentação
+
+Install-Package BibliotecaSubeta.Data
