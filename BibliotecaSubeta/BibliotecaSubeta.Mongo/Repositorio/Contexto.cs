@@ -5,7 +5,7 @@ using System.Configuration;
 
 namespace BibliotecaSubeta.Mongo.Repositorio
 {
-    public class Contexto
+    public class Contexto : IContexto
     {
         private readonly IMongoDatabase database;
 
