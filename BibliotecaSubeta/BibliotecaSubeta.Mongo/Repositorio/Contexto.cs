@@ -13,8 +13,14 @@ namespace BibliotecaSubeta.Mongo.Repositorio
 
         public Contexto(string connectionStringNameAppConfig)
         {
-            var cliente = new MongoClient(ConfigurationManager.ConnectionStrings[connectionStringNameAppConfig].ConnectionString);
-            database = cliente.GetDatabase("GerenciadorMongo");
+            var connection = ConfigurationManager.ConnectionStrings[connectionStringNameAppConfig].ConnectionString;
+            var cliente = new MongoClient(connection);
+
+            var partes = connection.Split('/');
+
+            var databaseNome = partes[partes.Length - 1];
+
+            database = cliente.GetDatabase(databaseNome);
         }
 
         public IMongoCollection<TEntidade> Set<TEntidade>() where TEntidade : class, IEntidade, new()
