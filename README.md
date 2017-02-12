@@ -18,8 +18,8 @@ Interface de um Repositorio Generico,
 Implementação do Repositorio Generico para o EntityFramework
 
 #MongoDB
-Repositorio generico no mesmo padrão do repositorio para Entity Framework, mas para o MongoDB
-exemplo de uso: https://github.com/GuiaDosProgramadoresDaGalaxia/RepositorioGenericoMongoDB
+Repositorio generico no mesmo padrão do repositorio para Entity Framework, mas para o MongoDB.
+Exemplo de uso: https://github.com/GuiaDosProgramadoresDaGalaxia/RepositorioGenericoMongoDB
 
 #Instalação 
 Install-Package BibliotecaSubeta.Dominio
