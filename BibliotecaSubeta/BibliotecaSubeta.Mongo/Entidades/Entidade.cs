@@ -3,7 +3,7 @@ using System;
 
 namespace BibliotecaSubeta.Mongo.Entidades
 {
-    public class Entidade : IEntidade
+    public abstract class Entidade : IEntidade
     {
         public bool Ativo { get; set; }
 
