@@ -84,12 +84,6 @@
     <Compile Include="ViewModelList.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BibliotecaSubeta.Dominio\BibliotecaSubeta.Dominio.csproj">
-      <Project>{0040D67F-CE1A-4B9C-A24F-FC92210904FA}</Project>
-      <Name>BibliotecaSubeta.Dominio</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
